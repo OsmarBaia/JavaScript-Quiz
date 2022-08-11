@@ -2,15 +2,37 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Quiz</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/scripts.js" defer></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script defer src="./assets/js/scripts.js"></script>
 </head>
 <body>
-    
+<h1 class="main-title">Quiz de programação</h1>
+<!--    Score Board     -->
+<div class="score-container">
+    <p id="display-score"><span>90</span>%</p>
+    <p>você acertou <span id="corret-answer">0</span>de <span id="questions-qty">10</span></p>
+    <button id="restart">Refazer Quizz!</button>
+</div>
+<!--    Question        -->
+<div id="quizz-container">
+    <p id="question"><span id="question-number">1</span>- <span id="question-text">Qual é a unidade de medida para metros?</span>
+    </p>
+</div>
+<div id="answers-box">
+    <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+    <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+    <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+    <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+    <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+</div>
+
+<!--    Template    -->
+<button class="answer-template hide"><span class="btn-letter">a</span><span class="question-answer">m</span></button>
+
 </body>
 </html>
