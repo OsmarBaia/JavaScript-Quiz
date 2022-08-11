@@ -1,3 +1,3 @@
 # Quiz with JavaScript
 
-<img src=".assets/img/quiz.gif" alt="quiz-gif"/>
+<img src="./assets/img/quiz.gif" alt="quiz-gif"/>
